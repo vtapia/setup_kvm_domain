@@ -1,6 +1,7 @@
 import libvirt
 import time
 import sys
+import os
 import argparse
 import logging
 import re
@@ -71,6 +72,9 @@ def vm_status(dom):
             logger.debug("  Vqueues: %s" % tree.find('.//interface/driver').attrib['queues'])
         except:
             logger.debug("  Vqueues: 0")
+
+    if not os.path.exists(BACKUP_DIR):
+        os.makedirs(BACKUP_DIR)
 
     backup_file = BACKUP_DIR + "/" + dom.name() + '_' + str(time.time() + '.xml')
 
