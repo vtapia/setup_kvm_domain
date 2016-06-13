@@ -1,0 +1,60 @@
+        '1':
+                memory: '8192'
+                cpu: '8'
+                queues: '1'
+                pin: '1-8'
+        '2':
+                memory: '8192'
+                cpu: '4'
+                queues: '1'
+                pin: '1-8'
+        '3':
+                memory: '8192'
+                cpu: '2'
+                queues: '1'
+                pin: '1-8'
+        '4':
+                memory: '8192'
+                cpu: '1'
+                queues: '1'
+                pin: '1-8'
+        '5':
+                memory: '4096'
+                cpu: '8'
+                queues: '1'
+                pin: '1-8'
+        '6':
+                memory: '2048'
+                cpu: '8'
+                queues: '1'
+                pin: '1-8'
+        '7':
+                memory: '1024'
+                cpu: '8'
+                queues: '1'
+                pin: '1-8'
+        '8':
+                memory: '8192'
+                cpu: '8'
+                queues: '8'
+                pin: '1-8'
+        '9':
+                memory: '8192'
+                cpu: '4'
+                queues: '4'
+                pin: '1-8'
+        '10':
+                memory: '8192'
+                cpu: '2'
+                queues: '2'
+                pin: '1-8'
+        '11':
+                memory: '4096'
+                cpu: '8'
+                queues: '4'
+                pin: '1-8'
+        '12':
+                memory: '1024'
+                cpu: '8'
+                queues: '8'
+                pin: '1-8'
